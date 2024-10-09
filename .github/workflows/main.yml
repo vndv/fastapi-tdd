@@ -34,7 +34,7 @@ jobs:
           docker push ${{ env.IMAGE }}:latest
     permissions:
       contents: read
-      packeges: write
+      packages: write
 
   test:
     name: Test Docker Image
